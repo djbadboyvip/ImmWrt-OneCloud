@@ -11,7 +11,7 @@
 #
 
 # 修改默认 IP
-sed -i 's/192.168.1.1/192.168.5.254/g' package/base-files/files/bin/config_generate
+sed -i 's/192.168.1.1/192.168.2.80/g' package/base-files/files/bin/config_generate
 #sed -i 's/192.168.1.1/192.168.8.1/g' package/base-files/files/bin/config_generate
 
 # 修改默认主题
